@@ -11,7 +11,10 @@ header {
   padding: 40px 0;
   text-align: center;
 }
-
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
 nav ul {
   list-style: none;
   padding: 0;
@@ -51,6 +54,7 @@ section {
 .team-wrapper {
   display: flex;
   justify-content: space-around;
+  margin-top: 50px;
 }
 
 .team-header {
@@ -132,7 +136,22 @@ button:hover {
   color: #333;
   text-decoration: none;
 }
-
+#personal-intro {
+  margin: 50px 0;
+}
+.personal-description {
+  line-height: 1.6;
+  text-align: center;
+}
+#skills table {
+  width: 600px;
+  margin: auto;
+}
+#feature-project ul {
+  text-align: left;
+  list-style-type: disc;
+  margin: 50px 0;
+}
 footer {
   background-color: #333;
   color: #fff;
@@ -140,7 +159,7 @@ footer {
   /* position: fixed; */
   width: 100%;
   bottom: 0;
-  padding: 10px;
+  padding: 30px 0 10px 0;
 }
 
 footer span {
@@ -154,7 +173,7 @@ footer span a {
 
 footer p {
   font-size: 16px;
-  margin: 10px 0;
+  margin: 20px 0 10px 0;
 }
 
 .page-sections {
