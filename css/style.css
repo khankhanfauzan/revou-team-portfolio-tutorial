@@ -147,6 +147,7 @@ button:hover {
   width: 600px;
   margin: auto;
 }
+
 #feature-project ul {
   text-align: left;
   list-style-type: disc;
@@ -159,7 +160,7 @@ footer {
   /* position: fixed; */
   width: 100%;
   bottom: 0;
-  padding: 30px 0 10px 0;
+  padding: 30px 0 10px;
 }
 
 footer span {
