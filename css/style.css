@@ -43,19 +43,23 @@ main {
 section {
   margin-bottom: 40px;
 }
+
 .team-wrapper {
   display: flex;
   justify-content: space-around;
 }
+
 .team-header {
   text-align: center;
   margin-bottom: 20px;
   width: 100%;
 }
+
 .team-intro {
   padding: 20px;
   border-radius: 5px;
 }
+
 .team-member {
   border: 1px dashed #ccc;
   padding: 10px;
@@ -64,6 +68,7 @@ section {
   width: 30%;
   position: relative;
 }
+
 .fa {
   font-size: 20px !important;
   text-align: center;
@@ -73,6 +78,7 @@ section {
   background-color: #333;
   padding: 10px;
 }
+
 .avatar {
   vertical-align: middle;
   width: 100%;
@@ -127,11 +133,35 @@ footer {
   background-color: #333;
   color: #fff;
   text-align: center;
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   bottom: 0;
+  padding: 10px;
 }
+
+
+footer span {
+  margin: 0 10px;
+}
+
+footer span a {
+  color: #fff;
+  text-decoration: none;
+}
+
 footer p {
   font-size: 16px;
   margin: 10px 0;
+}
+
+.page-sections {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.page-sections a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
 }
