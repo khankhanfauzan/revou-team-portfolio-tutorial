@@ -81,9 +81,32 @@
                     <input type="file" id="reference" name="reference">
                 </fieldset>
             </section>
-            <section>
-                <!-- Timeline And Expectations -->
-            </section>
+             <!-- Timeline And Expectations -->
+            <section id="timeline-info">
+                <fieldset>  
+                    <legend> <strong>Timeline Expectation</strong></legend>
+                    <label for="start-date"> Expected Started Date </label><br>
+                    <input type="date" id="start-date" name="start-date" required><br><br>
+
+                    <label for="duration"> Estimated Duration (weeks): </label><br>
+                    <input type="number" id="duration" name="duration"required><br><br>
+
+                    <label for="work-mode"> Preferred Work Mode: </label><br>
+                    <input type="checkbox" id="remote" name="work-mode" value="remote">
+                    <label for="remote">remote</label>
+
+                    <input type="checkbox" id="onsite" name="work-mode" value="onsite">
+                    <label for="onsite">Onsite</label>
+
+                    <input type="checkbox" id="hybrid" name="work-mode" value="hybrid">
+                    <label for="hybrid">Hybrid</label>
+                </fieldset>
+            </section><br>
+            <div style="text-align: center;">
+                <button type="submit">Submit Request</button>
+                <button type="reset" class="reset">reset form</button>
+            </div>
+
 
 
         </form>

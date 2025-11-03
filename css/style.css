@@ -51,6 +51,11 @@ section {
   margin-bottom: 40px;
 }
 
+section .description {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+}
 .team-wrapper {
   display: flex;
   justify-content: space-around;
@@ -124,8 +129,21 @@ button a {
 }
 button:hover {
   background-color: #cccccc;
+  color: #333;
 }
 
+form button {
+  background-color: #333;
+  
+}
+
+form .reset {
+  background-color: #933434;
+}
+form button:hover {
+  background-color: #555;
+  color: #ffffff;
+}
 #internal-section-nav {
   text-decoration: none;
   text-align: center;
@@ -188,3 +206,4 @@ footer p {
   color: #333;
   font-weight: bold;
 }
+
