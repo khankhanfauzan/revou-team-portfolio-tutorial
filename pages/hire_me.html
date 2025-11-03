@@ -13,9 +13,7 @@
         <h1>We Are Madrid</h1>
         <nav style="text-align: center;">
             <a href="../index.html" aria-current="page">Home</a>
-            <a href="#featured-projects">Featured Projects</a>
-            <a href="#experience">Experience</a>
-            <a href="pages/hire_me.html">Hire Us!</a>
+            <a href="#">Hire Us!</a>
         </nav>
     </header>
     <main>
@@ -36,16 +34,18 @@
         <form action="#" method="get">
             <section id="personal-info">
                 <fieldset>
-                    <legend>Personal Information</legend>
+                    <legend><strong>Personal Information</strong></legend>
 
                     <label for="name">Name:</label><br>
-                    <input type="text" id="name" name="name" required><br><br>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required class="text-box"><br><br>
 
                     <label for="email">Email:</label><br>
-                    <input type="email" id="email" name="email" required><br><br>
+                    <input type="email" id="email" name="email" placeholder="example@mail.com" required
+                        class="text-box"><br><br>
 
                     <label for="phone-number">Phone Number:</label><br>
-                    <input type="tel" id="phone-number" name="phone-number" required><br><br>
+                    <input type="tel" id="phone-number" name="phone-number" placeholder="+62" required
+                        class="text-box"><br><br>
 
 
                 </fieldset>
@@ -57,7 +57,7 @@
 
                     <label for="website-type">What type of website do you want to
                         build?</label>
-                    <select id="website-type" name="website-type" required>
+                    <select id="website-type" name="website-type" class="text-box" required>
                         <option value=""> Choose one </option>
                         <option value="portfolio">Portfolio Website</option>
                         <option value="business">Business Website</option>
@@ -75,25 +75,26 @@
 
                     <label for="goals">Project Goals / Description:</label><br>
                     <textarea id="goals" name="goals" rows="4" placeholder="Describe what you want to achieve..."
-                        required></textarea><br><br>
+                        required class="text-box"></textarea><br><br>
 
                     <label for="reference">Upload a Reference Image:</label>
                     <input type="file" id="reference" name="reference">
                 </fieldset>
             </section>
-             <!-- Timeline And Expectations -->
+            <!-- Timeline And Expectations -->
             <section id="timeline-info">
-                <fieldset>  
+                <fieldset>
                     <legend> <strong>Timeline Expectation</strong></legend>
                     <label for="start-date"> Expected Started Date </label><br>
-                    <input type="date" id="start-date" name="start-date" required><br><br>
+                    <input type="date" id="start-date" name="start-date" required class="text-box"><br><br>
 
                     <label for="duration"> Estimated Duration (weeks): </label><br>
-                    <input type="number" id="duration" name="duration"required><br><br>
+                    <input type="number" id="duration" name="duration" min="1" max="52" placeholder="e.g. 4" required
+                        class="text-box"><br><br>
 
                     <label for="work-mode"> Preferred Work Mode: </label><br>
                     <input type="checkbox" id="remote" name="work-mode" value="remote">
-                    <label for="remote">remote</label>
+                    <label for="remote">Remote</label>
 
                     <input type="checkbox" id="onsite" name="work-mode" value="onsite">
                     <label for="onsite">Onsite</label>
@@ -104,10 +105,8 @@
             </section><br>
             <div style="text-align: center;">
                 <button type="submit">Submit Request</button>
-                <button type="reset" class="reset">reset form</button>
+                <button type="reset" class="reset">Reset Form</button>
             </div>
-
-
 
         </form>
     </main>
